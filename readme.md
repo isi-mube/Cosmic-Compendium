@@ -7,25 +7,47 @@
 </p>
 
 1. [Notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
+2. [Old script (will be deleted soon)](https://github.com/isi-mube/cosmic-compendium/blob/main/old_script.ipynb)
+
+## About the Project
+The objective of this **project** is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the **Galaxy Zoo 2 project**, a Hubble open-source source dataset.
 
 
-<p align="justify">
-This dataset consists of images of galaxies and their classification probabilities. The classification probabilities were determined by crowdsourced volunteer classifications as part of the Galaxy Zoo 2 project.</p>
+## Project development:
 
-## Dataset folders:
+* 01/06/23: Data collection and definining the problem; image binary classificator to detect either elliptical galaxy or not.
+* 15/06/23: Script nearly done. Reduced the quantity of imges used for the training model and testing to 500.
+* 15/06/23 to 21/06/23: Fixing errors, bugs, cleaning the code.
+* 29/06/23: Futher cleaning the code and bugs. Got a 81% accuracy predicting spiral galaxies. Total number of epochs: 35.
 
-* **images_training:** JPG images of 61578 galaxies. Files are named according to their GalaxyId.
-* **solutions_training:** Probability distributions for the classifications for each of the training images.
-* **images_test:** JPG images of 79975 galaxies. Files are name according to their GalaxyId. You will provide probabilities for each of these images. 
-* **all_ones_benchmark:** Sample submission file corresponding to the All Ones Benchmark
-* **all_zeros_benchmark:** Sample submission file corresponding to the All Zeros Benchmark
-* **central_pixel_benchmark:** Simple benchmark that clusters training galaxies according to the color in the center of the image and then assigns the associated probability values to like-colored images in the test set.
+## Model Results
 
-<p align="justify">
-The first column in each solution is labeled GalaxyID; this is a randomly-generated ID that only allows you to match the probability distributions with the images. 
+Empty space for the future --> Haven't done all metrics yet]
 
-The next 37 columns are all floating point numbers between 0 and 1 inclusive. These represent the morphology (or shape) of the galaxy in 37 different categories as identified by crowdsourced volunteer classifications as part of the Galaxy Zoo 2 project. 
+## Testing the Model
 
-These morphologies are related to probabilities for each category; a high number (close to 1) indicates that many users identified this morphology category for the galaxy with a high level of confidence. Low numbers for a category (close to 0) indicate the feature is likely not present.</p>
+Empty space for the future --> Haven't done all metrics yet]
 
-Visit the [Galaxy Zoo Decision Tree page](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/details/the-galaxy-zoo-decision-tree) for a detailed description of the data & [Galaxy Zoo - The Galaxy Challenge](https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge/data) from Kaggle.
+## Toolkit:
+
+* **JupyterLab**: Enviorment for Python scripts and managing files.
+
+**Libraries**
+
+* **Pandas**: Data manipulation and analysis.
+* **Numpy**: Arrays and mathematical functions.
+* **Os**: File managment.
+* **Warnings**: Roses are red, violets are blue --> Warnings are annoying.
+* **Matplotlib**: Data visualization.
+* **Seaborn**: Runs on top of matplotlib, HD data visualization.
+* **Shutil**: File operations (copying, deleting...).
+* **TensorFlow:** Machine Learning for Computer Vision.
+* **Keras:** High-level neural networks API for Deep Learning, running on top of TensorFlow.
+* **Sklearn:** Machine Learning metrics.
+* **PIL:** Python Imaging Library to manipulate images.
+* **Random:** To generate random numbers.
+
+## Bibliography:
+
+- Lintott, C. J. et al. (2008). Galaxy Zoo: Morphologies derived from visual inspection of galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 389(3), 1179–1189.
+- Willett, K. W. et al. (2013). Galaxy Zoo 2: detailed morphological classifications for 304,122 galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 435(3), 2835–2860.
