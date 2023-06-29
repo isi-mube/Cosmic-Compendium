@@ -18,7 +18,10 @@ The objective of this **project** is to do binary image classification with gala
 * 01/06/23: Data collection and defining the problem; image binary classification to detect either spiral galaxy or not.
 * 15/06/23: The script is nearly done. Reduced the number of images used for the model training and testing to a subset of 1000. 
 * 15/06/23 to 21/06/23: Fixing errors, and bugs and cleaning the code.
-* 29/06/23: Further cleaning of the code and bugs. Got an 81% accuracy predicting spiral galaxies. Total number of epochs: 35.
+* 29/06/23:
+  * Further cleaning of the code and bugs.
+  * Got an 81% accuracy predicting spiral galaxies. Total number of epochs: 35. Added.
+  * Removed some data directories from GitHub for optimization.
 
 ## Further project development:
 
