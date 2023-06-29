@@ -12,6 +12,9 @@
 ## About the Project
 The objective of this **project** is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the **Galaxy Zoo 2 project**, a Hubble open-source source dataset.
 
+<p style="text-align: justify;">
+The <strong>Hubble sequence</strong> is a morphological classification for galaxies, published by <a href="https://en.wikipedia.org/wiki/Edwin_Hubble"><strong>Edwin Hubble</strong></a> in 1926, dividing regular galaxies into three main classes; ellipticals, lenticulars, and <strong>spirals</strong>. Spiral galaxies, which are abundant in the universe, display a distinctive disk with spiraling arms and a gas and dust-rich central bulge. Studying spiral galaxies gives us a peek into the universe's past and helps us understand galaxy evolution and cosmology. The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern recognition through a decision-tree process, answering questions progressively about a galaxy's structure.
+</p>
 
 ## Project development:
 
