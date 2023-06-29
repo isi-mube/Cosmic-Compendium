@@ -15,18 +15,18 @@ The objective of this **project** is to do binary image classification with gala
 
 ## Project development:
 
-* 01/06/23: Data collection and definining the problem; image binary classificator to detect either elliptical galaxy or not.
+* 01/06/23: Data collection and definining the problem; image binary classificator to detect either spiral galaxy or not.
 * 15/06/23: Script nearly done. Reduced the quantity of imges used for the training model and testing to 500.
 * 15/06/23 to 21/06/23: Fixing errors, bugs, cleaning the code.
 * 29/06/23: Futher cleaning the code and bugs. Got a 81% accuracy predicting spiral galaxies. Total number of epochs: 35.
 
 ## Model Results
 
-Empty space for the future --> Haven't done all metrics yet]
+Empty space for the future --> Haven't done all metrics yet.
 
 ## Testing the Model
 
-Empty space for the future --> Haven't done all metrics yet]
+Empty space for the future --> Haven't done all metrics yet.
 
 ## Toolkit:
 
