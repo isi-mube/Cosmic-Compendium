@@ -25,6 +25,9 @@ Spiral galaxies, which are abundant in the universe, display a distinctive disk 
 The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern recognition through a decision-tree process, answering questions progressively about a galaxy's structure.
 </p>
 
+<p align="center">
+  <img src="https://galaxyzooblog.files.wordpress.com/2015/03/screen-shot-2015-03-31-at-9-48-30-am.png" width="35%">
+</p>
 
 ## Project development:
 
