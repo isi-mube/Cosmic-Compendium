@@ -22,12 +22,11 @@ The objective of this **project** is to do binary image classification with gala
 
 ## Further project development:
 
-* Missing: plotting the metrics.
-* Do cross-validation for a better report.
-* Augment the number of epochs to get better accuracy results.
+* Include metrics visualization for comprehensive understanding and cross-validation for the report.
+* Increase the number of epochs to improve accuracy.
 * Further cleaning the code for readability.
-* Make a streamlit app to visualize the model better.
-* Rest and focus on Python basics, to keep moving on to image segmentation and multiclassification.
+* Develop a Streamlit app for more interactive model visualization.
+* Take a break, keep focusing on Python basics, and move on to image segmentation and multiclassification.
 
 ## Model Results
 
