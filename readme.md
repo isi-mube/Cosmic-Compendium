@@ -10,7 +10,8 @@
 2. [Old script (will be deleted soon)](https://github.com/isi-mube/cosmic-compendium/blob/main/old_script.ipynb)
 
 ## About the Project
-The objective of this **project** is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the **Galaxy Zoo 2 project**, a Hubble open-source source dataset.
+<p style="text-align: justify;">The objective of this **project** is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the **Galaxy Zoo 2 project**, a Hubble Space Telescope open-source dataset.
+</p>
 
 ## About the Hubble sequence
 <p style="text-align: justify;">
