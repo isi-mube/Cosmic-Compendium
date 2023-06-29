@@ -38,7 +38,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 * 15/06/23 to 21/06/23: Fixing errors and cleaning the code.
 * 29/06/23:
   * Further cleaning of the code and bugs.
-  * Got an 81% accuracy predicting spiral galaxies. Total number of epochs: 35. Added.
+  * Got an 81% accuracy predicting unseen galaxies. Total number of epochs: 35.
   * Removed some data directories from GitHub for optimization.
 
 ## Further project development:
