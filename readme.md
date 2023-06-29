@@ -20,10 +20,10 @@ The objective of this **project** is to do binary image classification with gala
 * 15/06/23 to 21/06/23: Fixing errors, and bugs and cleaning the code.
 * 29/06/23: Further cleaning of the code and bugs. Got an 81% accuracy predicting spiral galaxies. Total number of epochs: 35.
 
-## Further development:
+## Further project development:
 
-* Missing: Plotting the metrics.
-* Do cross-validation for better a report.
+* Missing: plotting the metrics.
+* Do cross-validation for a better report.
 * Augment the number of epochs to get better accuracy results.
 * Further cleaning the code for readability.
 * Make a streamlit app to visualize the model better.
