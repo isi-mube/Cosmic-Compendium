@@ -1,10 +1,12 @@
 # Cosmic Compendium
 
 <p align="center">
-  <img src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2109a.jpg">
+  <img src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2109a.jpg" width="50%" alt="Hubble Beholds a Big, Beautiful Blue Galaxy">
+  <br>
+  <small><em>Hubble Beholds a Big, Beautiful Blue Galaxy<br>NGC 2336 is the quintessential galaxy — big, beautiful, and blue — and it is captured here by the NASA/ESA Hubble Space Telescope.</em></small>
 </p>
 
-1. [Notebook]()
+1. [Notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
 
 
 <p align="justify">
