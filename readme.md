@@ -1,4 +1,11 @@
-## About the Data
+# Cosmic Compendium
+
+<p align="center">
+  <img src="https://i.postimg.cc/q7RTS9DF/230295258-7abb4af1-36f4-489c-a99b-62d2dbaa99a2.png">
+</p>
+
+1. [Notebook]()
+
 
 <p align="justify">
 This dataset consists of images of galaxies and their classification probabilities. The classification probabilities were determined by crowdsourced volunteer classifications as part of the Galaxy Zoo 2 project.</p>
