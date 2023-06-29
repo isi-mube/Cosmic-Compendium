@@ -5,7 +5,7 @@ This dataset consists of images of galaxies and their classification probabiliti
 
 ## Dataset folders:
 
-**From** Galaxy Zoo
+**From** Galaxy Zoo:
 * **images_training:** JPG images of 61578 galaxies. Files are named according to their GalaxyId.
 * **solutions_training:** Probability distributions for the classifications for each of the training images.
 * **images_test:** JPG images of 79975 galaxies. Files are name according to their GalaxyId. You will provide probabilities for each of these images.
