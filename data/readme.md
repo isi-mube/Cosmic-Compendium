@@ -10,6 +10,8 @@ This dataset consists of images of galaxies and their classification probabiliti
 * **solutions_training:** Probability distributions for the classifications for each of the training images.
 * **images_test:** JPG images of 79975 galaxies. Files are name according to their GalaxyId. You will provide probabilities for each of these images.
 
+  * For GitHub optimization purposes, this datasets will not be available to download but can be found [here](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge)
+
 **Created from** Python scripts:
 * **spirals:** Labeled spiral galaxies, created during the python script. 
 * **non_spirals:** Labeled non-spiral galaxies, created during the python script.
