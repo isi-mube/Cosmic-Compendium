@@ -74,7 +74,7 @@ Empty space for the future --> Haven't done all metrics yet.
 * **Keras:** High-level neural networks API for Deep Learning, running on top of TensorFlow.
 * **Sklearn:** Machine Learning metrics.
 * **PIL:** Python Imaging Library to manipulate images.
-* **Random:** To generate random numbers.
+* **Random:** To generate random subsets.
 
 ## Bibliography:
 
