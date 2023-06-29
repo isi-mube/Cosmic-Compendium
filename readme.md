@@ -1,7 +1,7 @@
 # Cosmic Compendium
 
 <p align="center">
-  <img src="https://i.postimg.cc/q7RTS9DF/230295258-7abb4af1-36f4-489c-a99b-62d2dbaa99a2.png">
+  <img src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2109a.jpg">
 </p>
 
 1. [Notebook]()
