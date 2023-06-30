@@ -7,7 +7,6 @@
 </p>
 
 1. [Notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
-2. [Old script (will be deleted soon)](https://github.com/isi-mube/cosmic-compendium/blob/main/old_script.ipynb)
 
 ## About the Project
 <p style="text-align: justify;">The objective of this <strong>project</strong> is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the <strong>Galaxy Zoo 2 project</strong>, a Hubble Space Telescope open-source dataset.
@@ -38,7 +37,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 * 15/06/23 to 21/06/23: Fixing errors and cleaning the code.
 * 29/06/23:
   * Further cleaning of the code and bugs.
-  * Got an 81% accuracy predicting spiral galaxies. Total number of epochs: 35. Added.
+  * Got an 81% accuracy predicting unseen galaxies. Total number of epochs: 35.
   * Removed some data directories from GitHub for optimization.
 
 ## Further project development:
@@ -74,7 +73,7 @@ Empty space for the future --> Haven't done all metrics yet.
 * **Keras:** High-level neural networks API for Deep Learning, running on top of TensorFlow.
 * **Sklearn:** Machine Learning metrics.
 * **PIL:** Python Imaging Library to manipulate images.
-* **Random:** To generate random numbers.
+* **Random:** To generate random subsets.
 
 ## Bibliography:
 
