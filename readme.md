@@ -79,3 +79,6 @@ Empty space for the future --> Haven't done all metrics yet.
 
 - Lintott, C. J. et al. (2008). Galaxy Zoo: Morphologies derived from visual inspection of galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 389(3), 1179–1189.
 - Willett, K. W. et al. (2013). Galaxy Zoo 2: detailed morphological classifications for 304,122 galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 435(3), 2835–2860.
+- Chollet, F. (n.d.). Image Classification from Scratch. Keras. Retrieved from https://keras.io/examples/vision/image_classification_from_scratch/#introduction
+- Chollet, F. (n.d.). Keras Metrics. Keras. Retrieved from https://keras.io/api/metrics/
+- Nicholas Renotte. (n.d.). Build a Deep CNN Image Classifier with ANY Images. [Video]. YouTube. Available at: https://www.youtube.com/watch?v=jztwpsIzEGc
