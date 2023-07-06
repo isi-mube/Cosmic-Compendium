@@ -55,11 +55,11 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 Empty space for the future --> Haven't done all metrics yet.
 
 <p align="center">
-  <img src="https://i.ibb.co/QpqrD0S/download.png" width="75%">
+  <img src="https://i.ibb.co/QpqrD0S/download.png" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="80%">
+  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="50%">
 </p>
 
 ## Toolkit:
