@@ -40,7 +40,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
   * Further cleaning of the code and bugs.
   * Got an 81% accuracy predicting unseen galaxies. Total number of epochs: 35.
   * Removed some data directories from GitHub for optimization.
-* 06/07/23: Finally got val_accuracy running (and not frozen) using [Sabina](https://github.com/sabinagio) CNN structure, need to upgrade it further to have better scoring
+* 06/07/23: Finally got `val_accuracy` running (and not frozen) using [Sabina's](https://github.com/sabinagio) CNN structure, need to upgrade it further to get better scoring.
 
 ## Further project development:
 
