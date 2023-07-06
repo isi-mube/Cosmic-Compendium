@@ -45,6 +45,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
   * Changed adam optimizer to adamax.
   * Added ImageDateGenerator parameters; horizontal flips, width and height shifts and zoom range to 0.3.
   * Augmented image size to 256x256 to get better resolution.
+  * Created a cathartic [playlist](https://open.spotify.com/playlist/6UfNfescWaFLUzHC57LuwI?si=ccf07d382053420b) related to val_accuracy obsession to debug it.
 
 ## Further project development:
 
