@@ -60,10 +60,6 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
   <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="46%">
 </p>
 
-* Metrics need an upgrade/update with the final conclusions, Python script, and Streamlit for visualization, however...
-  * We were aiming for a good sigmoid curve --> success ! :D
-  * Also, the confusion matrix works now correctly (it was an issue before, the model not being able to predict the other class). 
-
 ## Toolkit:
 
 * **JupyterLab**: Enviorment for Python scripts and managing files.
