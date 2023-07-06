@@ -59,7 +59,7 @@ Empty space for the future --> Haven't done all metrics yet.
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="50%">
+  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="46%">
 </p>
 
 ## Toolkit:
