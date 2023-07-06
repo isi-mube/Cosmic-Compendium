@@ -52,8 +52,6 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 
 ## Model Results
 
-Empty space for the future --> Haven't done all metrics yet.
-
 <p align="center">
   <img src="https://i.ibb.co/QpqrD0S/download.png" width="45%">
 </p>
