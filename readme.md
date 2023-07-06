@@ -40,7 +40,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
   * Further cleaning of the code and bugs.
   * Got an 81% accuracy predicting unseen galaxies. Total number of epochs: 35.
   * Removed some data directories from GitHub for optimization.
-* 06/07/23: Finally got `val_accuracy` running (and not frozen) adapting [Sabina's](https://github.com/sabinagio) CNN structure in [Glaucoma detection](https://github.com/sabinagio/do-you-see-what-AI-see), need to upgrade it further to get better scoring. Also:
+* 06/07/23: Finally got `val_accuracy` running (and not frozen) adapting [Sabina's](https://github.com/sabinagio) CNN structure in [Glaucoma detection](https://github.com/sabinagio/do-you-see-what-AI-see), I need to upgrade it further to get better scoring. Also:
   * 1.400 unique galaxies for the training subset and 600 unique galaxies for the validation subset.
   * Changed adam optimizer to adamax.
   * Added ImageDateGenerator parameters; horizontal flips, width and height shifts and zoom range to 0.3.
