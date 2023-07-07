@@ -6,7 +6,8 @@
   <small><em>Hubble Beholds a Big, Beautiful Blue Galaxy<br>NGC 2336 is the quintessential galaxy — big, beautiful, and blue — and it is captured here by the NASA/ESA Hubble Space Telescope.</em></small>
 </p>
 
-1. [Notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
+1. [Notebook (needs another update)](https://github.com/isi-mube/cosmic-compendium/blob/main/i_dont_give_up_yet.ipynb)
+2. [Old notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
 
 ## About the Project
 <p style="text-align: justify;">The objective of this <strong>project</strong> is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the <strong>Galaxy Zoo 2 project</strong>, a Hubble Space Telescope open-source dataset.
@@ -39,10 +40,16 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
   * Further cleaning of the code and bugs.
   * Got an 81% accuracy predicting unseen galaxies. Total number of epochs: 35.
   * Removed some data directories from GitHub for optimization.
+* 06/07/23: Finally got `val_accuracy` running (and not frozen) adapting [Sabina's](https://github.com/sabinagio) CNN structure in [Glaucoma detection](https://github.com/sabinagio/do-you-see-what-AI-see), I need to upgrade it further to get better scoring. Also:
+  * 1.400 unique galaxies for the training subset and 600 unique galaxies for the validation subset.
+  * Changed adam optimizer to adamax.
+  * Added ImageDateGenerator parameters; horizontal flips, width and height shifts and zoom range to 0.3.
+  * Augmented image size to 256x256 to get better resolution.
+  * Created a cathartic [playlist](https://open.spotify.com/playlist/6UfNfescWaFLUzHC57LuwI?si=ccf07d382053420b) related to val_accuracy obsession to debug it.
 
 ## Further project development:
 
-* Include metrics visualization for comprehensive understanding and cross-validation for the report.
+* Include metrics visualization for comprehensive understanding.
 * Increase the number of epochs to improve accuracy.
 * Further cleaning the code for readability.
 * Develop a Streamlit app for more interactive model visualization.
@@ -50,11 +57,13 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 
 ## Model Results
 
-Empty space for the future --> Haven't done all metrics yet.
+<p align="center">
+  <img src="https://i.ibb.co/QpqrD0S/download.png" width="45%">
+</p>
 
-## Testing the Model
-
-Empty space for the future --> Haven't done all metrics yet.
+<p align="center">
+  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="46%">
+</p>
 
 ## Toolkit:
 

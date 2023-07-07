@@ -15,8 +15,10 @@ This dataset consists of images of galaxies and their classification probabiliti
 **Created from** Python scripts:
 * **spirals:** Labeled spiral galaxies, created during the python script. 
 * **non_spirals:** Labeled non-spiral galaxies, created during the python script.
-* **galaxies:** Master dataset folder. Contains 1000 labeled galaxies images, 500 spirals and 500 non-spirals for the binary classification problem.
-
+* **galaxies:** Master dataset folder. Contains training and validation subfolders
+   * Training: 1400 unique galaxies, 700 per spiral and non-spiral.
+   * Validation: 600 unique galaxies, 300 per spiral and non-spiral.
+    
  * For GitHub optimization purposes, spiral and non_spiral datasets will not be available to download. Downloading [the following datasets](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge) and running the notebook from scratch will create them.
 
 
