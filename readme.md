@@ -6,8 +6,7 @@
   <small><em>Hubble Beholds a Big, Beautiful Blue Galaxy<br>NGC 2336 is the quintessential galaxy — big, beautiful, and blue — and it is captured here by the NASA/ESA Hubble Space Telescope.</em></small>
 </p>
 
-1. [Notebook (needs another update)](https://github.com/isi-mube/cosmic-compendium/blob/main/i_dont_give_up_yet.ipynb)
-2. [Old notebook](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
+1. [Python script)](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
 
 ## About the Project
 <p style="text-align: justify;">The objective of this <strong>project</strong> is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the <strong>Galaxy Zoo 2 project</strong>, a Hubble Space Telescope open-source dataset.
@@ -43,26 +42,29 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 * 06/07/23: Finally got `val_accuracy` running (and not frozen) adapting [Sabina's](https://github.com/sabinagio) CNN structure in [Glaucoma detection](https://github.com/sabinagio/do-you-see-what-AI-see), I need to upgrade it further to get better scoring. Also:
   * 1.400 unique galaxies for the training subset and 600 unique galaxies for the validation subset.
   * Changed adam optimizer to adamax.
-  * Added ImageDateGenerator parameters; horizontal flips, width and height shifts and zoom range to 0.3.
+  * Added ImageDateGenerator parameters; horizontal flips, width and height shifts and zoom range to 0.2.
   * Augmented image size to 256x256 to get better resolution.
   * Created a cathartic [playlist](https://open.spotify.com/playlist/6UfNfescWaFLUzHC57LuwI?si=ccf07d382053420b) related to val_accuracy obsession to debug it.
+* 07/07/23: Adapted the final CNN structure to:
+  * Input layer 
+  * 4 convolutional layers with 32, 64, 128 and 256 filters, followed by max pooling.
+  * Flatten layer, converting 3D outputs to 1D vector.
+  * 2 fully connected (dense) layers with 512 and 256 neurons.
+  * An output layer with 1 neuron for binary classification
 
 ## Further project development:
 
-* Include metrics visualization for comprehensive understanding.
-* Increase the number of epochs to improve accuracy.
-* Further cleaning the code for readability.
 * Develop a Streamlit app for more interactive model visualization.
 * Take a break, keep focusing on Python basics, and move on to image segmentation and multiclassification.
 
 ## Model Results
 
 <p align="center">
-  <img src="https://i.ibb.co/QpqrD0S/download.png" width="45%">
+  <img src="https://i.ibb.co/xXk1Q6s/loss.png" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/0r5Qrbs/download-1.png" width="46%">
+  <img src="https://i.ibb.co/MhHJVhB/accuracy.png" width="45%">
 </p>
 
 ## Toolkit:
