@@ -85,7 +85,7 @@ The <strong>Galaxy Zoo</strong> involved human volunteers for visual and pattern
 * **Sklearn:** Machine Learning metrics.
 * **PIL:** Python Imaging Library to manipulate images.
 * **Random:** To generate random subsets.
-* **ImageDataGenerator:** To generate random data augmentation (flips, zoom...)
+* **ImageDataGenerator:** To generate random data augmentation (flips, zoom...).
 
 ## Bibliography:
 
