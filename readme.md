@@ -6,7 +6,7 @@
   <small><em>Hubble Beholds a Big, Beautiful Blue Galaxy<br>NGC 2336 is the quintessential galaxy — big, beautiful, and blue — and it is captured here by the NASA/ESA Hubble Space Telescope.</em></small>
 </p>
 
-1. [Python script)](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
+1. [Python script](https://github.com/isi-mube/cosmic-compendium/blob/main/notebook.ipynb)
 
 ## About the Project
 <p style="text-align: justify;">The objective of this <strong>project</strong> is to do binary image classification with galaxies, either spiral galaxies or non-spiral. The images are provided from the <strong>Galaxy Zoo 2 project</strong>, a Hubble Space Telescope open-source dataset.
